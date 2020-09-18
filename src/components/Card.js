@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Card = ({ id, name, email }) => {
   return (
@@ -6,8 +6,8 @@ const Card = ({ id, name, email }) => {
       <img
         src={`https://robohash.org/${id}?200x200&bgset=${
           id % 2 ? "bg1" : "bg2"
-          }`}
-        alt="user"
+        }`}
+        alt="robot"
       />
       <div>
         <h2>{name}</h2>
